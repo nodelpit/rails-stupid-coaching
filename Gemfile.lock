@@ -74,6 +74,8 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
     ast (2.4.2)
     base64 (0.2.0)
     benchmark (0.4.0)
@@ -102,6 +104,8 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.0)
+    geckodriver-helper (0.24.0)
+      archive-zip (~> 0.7)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -111,6 +115,7 @@ GEM
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.7.2)
+    io-like (0.3.1)
     irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
@@ -309,6 +314,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  geckodriver-helper
   importmap-rails
   jbuilder
   puma (>= 5.0)

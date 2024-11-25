@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-center">
+  <div class="mt-5 p-5 border rounded-3 shadow">
+    <div class="question">
+      <p class="fw-bolder">-You</p>
+      <p><%= @question %></p>
+    </div>
+
+    <div class="">
+      <div class="answer">
+        <p class="fw-bolder">-Coach</p>
+        <p><%= @answer %></p>
+      </div>
+    </div>
+    <%= link_to 'return to ask view', ask_path %>
+  </div>
+</div>
